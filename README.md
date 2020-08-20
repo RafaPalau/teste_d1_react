@@ -45,5 +45,3 @@ To style our components I used a library called [Styled Components](https://styl
 ### Tests Unit
 This project was done using unit tests.
 Because it is cheaper and faster to make, and they guarantee a solid base for the system.
-
-![](../teste_d1/src/images/testsUnit.png)
