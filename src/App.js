@@ -1,25 +1,27 @@
 import React from "react";
-import Indice from "./components/indice";
-import Logo from "./components/logoD1";
-import * as S from "./StyleApp";
 
+import Logo from "./components/logoD1";
+import Title from "./components/titulo";
+import Input from "./components/input";
+import * as S from "./StyleApp";
+import SideBar from "./components/sidebar";
+import Indice from "./components/indice";
+import FullList from "./components/fullList";
 
 function App() {
   return (
     <S.Container>
-
-<Logo> </Logo>
-      {/* <S.DivNav>
-    AQui vai a logo D1 + imagens + input
+      <S.DivNav>
+        <Logo> </Logo>
+        <Title></Title>
+        <Input></Input>
       </S.DivNav>
-  */}
 
-{/* <S.DivMain>
-Aqui vai o SideBAr + Indice + FullList
-</S.DivMain> */}
-
-      <Indice />
-
+      <S.DivMain>
+        <SideBar />
+        <Indice />
+        <FullList />
+      </S.DivMain>
     </S.Container>
   );
 }

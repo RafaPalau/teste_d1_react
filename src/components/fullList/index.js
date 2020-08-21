@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import jornadas from "../api/jornadas";
 import * as S from "./styles";
 
-class Indice extends Component {
+
+class FullList extends Component {
   state = {
     info: [],
   };
@@ -17,19 +18,24 @@ class Indice extends Component {
     return (
       <>
         <S.Container>
-          {/* Listando os itens da jornada */}
+
+          
+          {/* Listando os itens da jornada
           <S.H1>Jornadas</S.H1>
 
           {info.map((jornadas) => (
-            <S.List key={S.List}>
-              <S.Name>{jornadas.name} </S.Name>
-              <S.Quantidade>{jornadas.quantity}</S.Quantidade>
+            <S.List key={jornadas}>
+             
+               
+                <S.Name>{jornadas.name} </S.Name>
+                <S.Quantidade>{jornadas.quantity}</S.Quantidade>
+             
             </S.List>
-          ))}
+          ))} */}
         </S.Container>
       </>
     );
   }
 }
 
-export default Indice;
+export default FullList;

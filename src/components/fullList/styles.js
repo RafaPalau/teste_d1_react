@@ -3,14 +3,13 @@ import styled from "styled-components";
 export const H1 = styled.h1`
   text-align: left;
   letter-spacing: 0px;
-  color: #3e4157;
+  color: #3E4157;
   text-align: left;
 `;
 
 export const List = styled.li`
   display: flex;
   justify-content: space-between;
- 
 `;
 
 export const Quantidade = styled.div`
@@ -23,20 +22,21 @@ export const Quantidade = styled.div`
   border-radius: 100%;
   padding: 5px;
   margin-top: 10px;
-  color: #9196ab;
+  color: #9196AB;
 `;
 
 export const Indices = styled.div``;
 
+
 export const Name = styled.h2`
   font-size: 13px;
-  color: #9196ab;
+  color: #9196AB;
 `;
 
 export const Container = styled.div`
   background-color: #fafbff;
   max-width: 200px;
   list-style: none;
-  /* margin top , right, bottom e left*/
+  padding: 5px;
   margin: 32px 237px auto 91px;
 `;
