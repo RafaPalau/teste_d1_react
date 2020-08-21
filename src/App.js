@@ -6,7 +6,7 @@ import Input from "./components/input";
 import * as S from "./StyleApp";
 import SideBar from "./components/sidebar";
 import Indice from "./components/indice";
-import FullList from "./components/fullList";
+import Tabela from "./components/tabela";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <S.DivMain>
         <SideBar />
         <Indice />
-        <FullList />
+        <Tabela />
       </S.DivMain>
     </S.Container>
   );

@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   /* A margim que distancia as imagens dos inputs */
-  margin-left: 596px;
+  margin-left: 500px;
   display: flex;
+  
 `;
 
 export const Search = styled.input`

@@ -8,7 +8,7 @@ height: 30px;
 `;
 
 export const AcmeLogo = styled.img`
-width: 66px;
+width: 70px;
 height: 26px;
 margin-left: 39px;
 background-color: #FFF;
