@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import * as S from "./styles";
+import search from '../../assets/icons/search.svg'
 
 class Input extends Component {
 
@@ -12,11 +13,19 @@ class Input extends Component {
     return (
       <>
         <S.Container>
-          <S.Search placeholder="Buscar"></S.Search>
+
+
+        <S.SearchIcon src={search} alt=""></S.SearchIcon>
+          <S.Search placeholder="Buscar"> 
+          
+                    </S.Search>  
+
 
           <S.Button onClick={handleClick}>
             <S.Text>+ Nova Jornada</S.Text>
           </S.Button>
+
+
         </S.Container>
       </>
     );

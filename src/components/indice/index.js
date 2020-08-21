@@ -23,40 +23,43 @@ class Indice extends Component {
 
     return (
       <>
-        <S.Container>
-
+        <S.Main>
           <S.Titulos>
             <S.Title>Jornadas</S.Title>
           </S.Titulos>
 
-      <S.Section>
-          {/* Aqui vai os icones */}
-          <S.DivIcons>
-            <S.Status1 src={status1} alt="" />
-            <S.Status2 src={status2} alt="" />
-            <S.Status3 src={status3} alt="" />
-            <S.Status4 src={status4} alt="" />
-            <S.Status5 src={status5} alt="" />
-            <S.Status6 src={status6} alt="" />
-            {console.log(jornadas)}
-          </S.DivIcons>
+          <S.Container>
+            {/* Aqui vai os icones */}
+            <S.DivIcons>
+              <S.Status1 src={status1} alt="" />
+              <S.Status2 src={status2} alt="" />
+              <S.Status3 src={status3} alt="" />
+              <S.Status4 src={status4} alt="" />
+              <S.Status5 src={status5} alt="" />
+              <S.Status6 src={status6} alt="" />
+              {console.log(jornadas)}
+            </S.DivIcons>
 
-          <S.Indice>
-            {info.map((jornadas) => (
-              <S.List key={S.List}>
-                <S.DivIndiceValor>
+            <S.Indice>
+              {info.map((jornadas) => (
+                <S.List key={S.List}>
                   {/* Aqui vai os nomes dos indices */}
                   <S.Name>{jornadas.name}</S.Name>
+                </S.List>
+              ))}
+            </S.Indice>
 
-                  {/* Aqui vai as quantidades dos indices */}
-                  <S.ValorIndice>{jornadas.quantity}</S.ValorIndice>
-                </S.DivIndiceValor>
-              </S.List>
-            ))}
-          </S.Indice>
+            <S.DivIndiceValor>
+              {info.map((jornadas) => (
+                <S.ValorIndice key={S.Indice}>
+                  {jornadas.quantity}
+                </S.ValorIndice>
+              ))}
+            </S.DivIndiceValor>
 
-          </S.Section>
-        </S.Container>
+            
+          </S.Container>
+        </S.Main>
       </>
     );
   }
