@@ -40,6 +40,7 @@ export const Button = styled.button`
   width: 150px;
   height: 35px;
   border: none;
+  outline-style: none;
   border-radius: 8px;
   margin-left: 15px;
   transition: all 0.5s ease;

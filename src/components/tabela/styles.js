@@ -43,13 +43,17 @@ export const Ul = styled.ul`
 export const UlStatus = styled.ul`
   list-style: none;
   font: normal normal bold 13px/14px Gotham;
+ 
 `;
 
 export const DivStatus = styled.div`
   display: flex;
   background-color: #ffffff;
-  margin: 13px;
+  margin-top: 13px;
   align-items: center;
+  widows: 150px;
+  margin-left: -80px;
+  padding-left: 80px;
 `;
 
 export const LiName = styled.ul`

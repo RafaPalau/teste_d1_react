@@ -74,19 +74,16 @@ class Tabela extends Component {
 
         <S.DivName>
           <S.DivMain>
-
-            
-          {info.map((filtro) => (
-            <S.Ul>
-              <S.LiName>{filtro.name}</S.LiName>
-              <S.LiRecipients>{filtro.recipients}</S.LiRecipients>
-              <S.LiSuccess>{filtro.success}</S.LiSuccess>
-            </S.Ul>
-          ))}
+            {info.map((filtro) => (
+              <S.Ul>
+                <S.LiName>{filtro.name}</S.LiName>
+                <S.LiRecipients>{filtro.recipients}</S.LiRecipients>
+                <S.LiSuccess>{filtro.success}</S.LiSuccess>
+              </S.Ul>
+            ))}
           </S.DivMain>
           <S.UlStatus>
             <S.LiStatus>
-              {" "}
               {info.map((item) => getStatusName(item.status))}
             </S.LiStatus>
           </S.UlStatus>
