@@ -40,6 +40,7 @@ class Indice extends Component {
               {console.log(jornadas)}
             </S.DivIcons>
 
+        
             <S.Indice>
               {info.map((jornadas) => (
                 <S.List key={S.List}>
@@ -49,14 +50,14 @@ class Indice extends Component {
               ))}
             </S.Indice>
 
-            <S.DivIndiceValor>
+            <S.Valor>
               {info.map((jornadas) => (
                 <S.ValorIndice key={S.Indice}>
                   {jornadas.quantity}
                 </S.ValorIndice>
               ))}
-            </S.DivIndiceValor>
-
+            </S.Valor>
+      
             
           </S.Container>
         </S.Main>

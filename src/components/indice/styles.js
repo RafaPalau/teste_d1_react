@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   display: inline-block;
-  margin: 66px 237px auto 91px;
- 
+  margin: 66px 130px auto 91px;
 `;
 
 // container principal
@@ -34,6 +33,9 @@ export const Section = styled.section`
 export const Indice = styled.div`
   margin-top: 20px;
   justify-items: center;
+  cursor: pointer;
+  &:hover {
+  }
 `;
 
 export const List = styled.li`
@@ -51,7 +53,7 @@ export const DivIcons = styled.div`
 
 // Div Indice e valor
 
-export const DivIndiceValor = styled.div`
+export const Valor = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,16 +76,16 @@ export const ValorIndice = styled.div`
   text-align: center;
   margin-bottom: 10px;
   color: #9196ab;
-  
+  cursor: pointer;
 `;
 
+// Icones dos indices
 export const Status1 = styled.img`
   width: 16px;
   height: 16px;
   filter: invert(88%) sepia(96%) saturate(7497%) hue-rotate(243deg)
     brightness(89%) contrast(93%);
 `;
-
 export const Status2 = styled.img`
   width: 16px;
   height: 16px;
@@ -98,7 +100,6 @@ export const Status3 = styled.img`
     brightness(88%) contrast(95%);
   margin-top: 15px;
 `;
-
 export const Status4 = styled.img`
   width: 16px;
   height: 16px;
@@ -106,7 +107,6 @@ export const Status4 = styled.img`
     brightness(95%) contrast(102%);
   margin-top: 16px;
 `;
-
 export const Status5 = styled.img`
   width: 16px;
   height: 16px;

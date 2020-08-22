@@ -14,10 +14,7 @@ import arrowCircleIcon from "../../assets/icons/arrowCircle.png";
 
 class SideBar extends Component {
   render() {
-
     return (
-
-      
       <>
         <ReactTooltip />
         <S.Container>

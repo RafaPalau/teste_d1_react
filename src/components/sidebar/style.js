@@ -14,6 +14,10 @@ export const ChartIcon = styled.img`
   height: 21px;
   filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(11deg) brightness(200%) contrast(1000%);
   margin-top: 71px;
+  transition: all .1s ease;
+  &:hover{
+    filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg) brightness(100%) contrast(105%);
+}
 `;
 export const RocketIcon = styled.img`
   width: 20px;
@@ -21,6 +25,10 @@ export const RocketIcon = styled.img`
   filter: invert(48%) sepia(1%) saturate(100%) hue-rotate(100deg)
     brightness(200%) contrast(400%);
   margin-top: 24px;
+  transition: all .1s ease;
+  &:hover{
+    filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg) brightness(100%) contrast(105%);
+}
 `;
 export const GroupIco = styled.img`
   width: 20px;
@@ -28,6 +36,10 @@ export const GroupIco = styled.img`
   filter: invert(48%) sepia(1%) saturate(100%) hue-rotate(100deg)
     brightness(200%) contrast(400%);
   margin-top: 28px;
+  transition: all .1s ease;
+  &:hover{
+    filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg) brightness(100%) contrast(105%);
+}
 `;
 export const CloudIcon = styled.img`
   width: 20px;
@@ -35,6 +47,10 @@ export const CloudIcon = styled.img`
   filter: invert(48%) sepia(1%) saturate(100%) hue-rotate(100deg)
     brightness(200%) contrast(400%);
   margin-top: 31.37px;
+  transition: all .1s ease;
+  &:hover{
+    filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg) brightness(100%) contrast(105%);
+}
 `;
 export const Hr = styled.hr`
   margin-top: 21px;
@@ -43,6 +59,10 @@ export const Hr = styled.hr`
   background: transparent linear-gradient(90deg, #00e1ff 0%, #117eff 100%) 0% 0%
     no-repeat padding-box;
     border: none;
+    transition: all .1s ease;
+    &:hover{
+    filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg) brightness(100%) contrast(105%);
+}
 `;
 
 export const ArrowSquareIcon = styled.img`
@@ -51,6 +71,10 @@ export const ArrowSquareIcon = styled.img`
   filter: invert(48%) sepia(1%) saturate(100%) hue-rotate(100deg)
     brightness(200%) contrast(400%);
   margin-top: 24px;
+  transition: all .1s ease;
+  &:hover{
+    filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg) brightness(100%) contrast(105%);
+}
 `;
 export const GemIcon = styled.img`
   width: 20px;
@@ -58,6 +82,10 @@ export const GemIcon = styled.img`
   filter: invert(48%) sepia(1%) saturate(100%) hue-rotate(100deg)
     brightness(200%) contrast(400%);
   margin-top: 200px;
+  transition: all .1s ease;
+  &:hover{
+    filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg) brightness(100%) contrast(105%);
+}
 `;
 export const ToolsIcon = styled.img`
   width: 20px;
@@ -65,6 +93,10 @@ export const ToolsIcon = styled.img`
   filter: invert(48%) sepia(1%) saturate(100%) hue-rotate(100deg)
     brightness(200%) contrast(400%);
   margin-top: 19px;
+  transition: all .1s ease;
+  &:hover{
+    filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg) brightness(100%) contrast(105%);
+}
 `;
 export const ArrowsIcon = styled.img`
   width: 20px;
@@ -72,6 +104,10 @@ export const ArrowsIcon = styled.img`
   filter: invert(48%) sepia(1%) saturate(100%) hue-rotate(100deg)
     brightness(200%) contrast(400%);
   margin-top: 23px;
+  transition: all .1s ease;
+  &:hover{
+    filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg) brightness(100%) contrast(105%);
+}
 `;
 export const ArrowCircleIcon = styled.img`
   width: 20px;
@@ -79,4 +115,8 @@ export const ArrowCircleIcon = styled.img`
   filter: invert(48%) sepia(1%) saturate(100%) hue-rotate(100deg)
     brightness(200%) contrast(400%);
   margin-top: 23px;
+  transition: all .1s ease;
+  &:hover{
+    filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg) brightness(100%) contrast(105%);
+}
 `;

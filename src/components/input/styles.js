@@ -17,9 +17,10 @@ export const Search = styled.input`
   border: 1px solid #cccfde;
   padding-left: 31.72px;
   cursor: pointer;
-  &:hover{
-  box-shadow: 0px 0px 8px 2px #CCC;
-}
+  transition: all 0.3s ease;
+  &:hover {
+    box-shadow: 0px 0px 8px 2px #ccc;
+  }
 `;
 
 export const SearchIcon = styled.img`
@@ -29,23 +30,27 @@ export const SearchIcon = styled.img`
     brightness(99%) contrast(104%);
   margin-right: -25px;
   margin-left: 25px;
-  
- 
 `;
 
 export const Button = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #117eff 0% 0% no-repeat padding-box;
+  background: #117ef6 0% 0% no-repeat padding-box;
   width: 150px;
   height: 35px;
   border: none;
   border-radius: 8px;
   margin-left: 15px;
-&:hover{
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,225,255,1) 0%, rgba(17,126,255,1) 100%);
-}
+  transition: all 0.5s ease;
+  &:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 225, 255, 1) 0%,
+      rgba(17, 126, 255, 1) 100%
+    );
+  }
 `;
 export const Text = styled.p`
   font: normal normal bold 13px/14px Gotham;
