@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Main = styled.main`
   display: inline-block;
   margin: 66px 30px auto 0px;
@@ -9,10 +8,9 @@ export const Main = styled.main`
 // container principal
 export const Container = styled.div`
   display: flex;
-
   background-color: #fafbff;
   list-style: none;
-  /* margin top , right, bottom e left*/
+  
 `;
 
 // estilização do titulo
@@ -22,9 +20,10 @@ export const Titulos = styled.div`
 
 export const Title = styled.h1`
   text-align: left;
-  font: normal normal bold 16px/18px ;
+  font: normal normal bold 16px/18px;
   letter-spacing: 0;
   color: #3e4157;
+ 
   /* margin-left: 90px; */
 `;
 
@@ -45,23 +44,19 @@ export const Icon = styled.div`
 // Estilização dos indices
 export const Indice = styled.div`
   margin-top: 20px;
-  justify-items: center;
   cursor: pointer;
-  &:hover {
-  }
+  
 `;
 
 export const List = styled.li`
   display: flex;
   width: 133px;
-  justify-content: space-between;
 `;
 
 //Div Icons
 export const DivIcons = styled.div`
   width: 16px;
   margin-top: 33px;
-  justify-content: space-between;
 `;
 
 // Div Indice e valor
@@ -71,15 +66,18 @@ export const Valor = styled.div`
   flex-direction: column;
   align-items: center;
   width: 123px;
-  margin-top: 36px;
- margin-left: -80px;
-`;
+  margin-top: 34px;
+  margin-left: -80px;
+  `;
 
 export const Name = styled.h2`
   font-size: 13px;
   color: #9196ab;
   margin-left: -40px;
-  /* margin-left: 10px; */
+  &:hover {
+   color: #117EFF;
+  }
+  
 `;
 
 export const ValorIndice = styled.div`
@@ -89,9 +87,13 @@ export const ValorIndice = styled.div`
   height: 22px;
   border-radius: 50%;
   text-align: center;
+  justify-content: center;
   margin-bottom: 10px;
   color: #9196ab;
   cursor: pointer;
+  &:hover {
+    background: #EBEEF6;
+  }
 `;
 
 // Estilização dos icones do Indice.

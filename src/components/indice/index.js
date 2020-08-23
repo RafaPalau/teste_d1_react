@@ -9,7 +9,9 @@ import configurandoIcon from "../../assets/icons/pen.svg";
 import ociosaIcon from "../../assets/icons/bed.svg";
 import concluidaIcon from "../../assets/icons/check.svg";
 
+
 class Indice extends Component {
+ 
   state = {
     info: [],
   };
@@ -37,28 +39,32 @@ class Indice extends Component {
       }
     }
 
+  
+    
     return (
       <>
+      
         <S.Main>
           <S.Titulos>
-            <S.Title>Jornadas</S.Title>
+            <S.Title >Jornadas</S.Title>
+            
           </S.Titulos>
 
           <S.Container>
             {/* Icones do indice mapeados e renderizados pela função getIndice */}
-            <S.Icon>{info.map((item) => getIndice(item.name))}</S.Icon>
+            <S.Icon>{info.map((item) => getIndice(`${item.name}`))}</S.Icon>
 
-            <S.Indice>
+            <S.Indice >
               {info.map((jornadas) => (
-                <S.List key={S.List}>
-                  <S.Name>{jornadas.name}</S.Name>
+                <S.List >
+                  <S.Name>{`${jornadas.name}`}</S.Name>
                 </S.List>
               ))}
-            </S.Indice>
+            </S.Indice>                    
 
-            <S.Valor>
+            <S.Valor >
               {info.map((jornadas) => (
-                <S.ValorIndice key={S.Indice}>
+                <S.ValorIndice >
                   {jornadas.quantity}
                 </S.ValorIndice>
               ))}

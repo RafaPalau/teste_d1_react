@@ -37,7 +37,7 @@ border: 1px solid #E4E6F1;
 width:321px;
 `
 export const Parag = styled.p`
-margin: 25px auto auto 30px;
+margin: 18px auto auto 30px;
 font: normal normal normal 13px/14px Gotham;
 color: #3E4157;
 

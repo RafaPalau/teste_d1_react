@@ -61,7 +61,7 @@ class Tabela extends Component {
     }
 
     return (
-      <S.Container>
+      <S.Container >
         {/* Cabeçalho da tabela */}
         <S.Table>
           <S.TdNome>Nome</S.TdNome>

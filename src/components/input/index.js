@@ -5,7 +5,7 @@ import search from "../../assets/icons/search.svg";
 
 class Input extends Component {
   state = {
-    show: false,    //trocar para true para  não abrir o site já com modal
+    show: true,  
   };
   showModal = () => {
     this.setState({

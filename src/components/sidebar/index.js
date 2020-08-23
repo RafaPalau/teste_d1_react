@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import ReactTooltip from "react-tooltip";
 import * as S from "./style";
 
-import chartIcon from "../../assets/icons/chart.png";
+import ChartIcon from "./ChartIcon";
+
+
 import rocketIcon from "../../assets/icons/rocket.png";
 import groupIcon from "../../assets/icons/group.png";
 import cloudIcon from "../../assets/icons/cloud.png";
@@ -17,14 +19,11 @@ class SideBar extends Component {
     return (
       <>
         <ReactTooltip />
+
         <S.Container>
-          <S.ChartIcon
-            src={chartIcon}
-            alt=""
-            data-tip="Análises"
-            data-type="light"
-            data-place="right"
-          />
+
+
+          <ChartIcon></ChartIcon>
 
           <S.RocketIcon
             src={rocketIcon}
