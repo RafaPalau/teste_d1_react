@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Main = styled.main`
   display: inline-block;
   margin: 66px 30px auto 0px;
@@ -21,7 +22,7 @@ export const Titulos = styled.div`
 
 export const Title = styled.h1`
   text-align: left;
-  font: normal normal bold 16px/18px Gotham;
+  font: normal normal bold 16px/18px ;
   letter-spacing: 0;
   color: #3e4157;
   /* margin-left: 90px; */

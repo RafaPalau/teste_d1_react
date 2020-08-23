@@ -42,13 +42,7 @@ know more here [Axios](https://www.npmjs.com/package/axios)
 ### Styled Components
 To style our components I used a library called [Styled Components](https://styled-components.com/docs/basics). It is a library for React and React Native that allows you to use component-level styles in your application. They are written in a mixture of JavaScript and CSS
 
-### Tests Unit
-This project was done using unit tests.
-Because it is cheaper and faster to make, and they guarantee a solid base for the system.
 
-### Icons
-Os icones usados firam do site [React-Icons](https://react-icons.github.io/react-icons/)
-Utilizando o comando no terminal para instalar npm install react-icons --save
 
 
 

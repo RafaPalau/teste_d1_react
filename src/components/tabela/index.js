@@ -26,14 +26,14 @@ class Tabela extends Component {
         return (
           <S.DivStatus>
             <S.ImgEnviado src={enviadoIcon} />
-            <p>Enviada</p>
+            <p>Em execução</p>
           </S.DivStatus>
         );
       } else if (item === 2) {
         return (
           <S.DivStatus>
             <S.ImgAtivadas src={ativadasIcon} />
-            <p>Ativadas</p>
+            <p>Ativa</p>
           </S.DivStatus>
         );
       } else if (item === 3) {
@@ -77,6 +77,7 @@ class Tabela extends Component {
             {info.map((filtro) => (
               <S.Ul>
                 <S.LiName>{filtro.name}</S.LiName>
+                
                 <S.LiRecipients>{filtro.recipients}</S.LiRecipients>
                 <S.LiSuccess>{filtro.success}</S.LiSuccess>
               </S.Ul>
@@ -85,6 +86,7 @@ class Tabela extends Component {
           <S.UlStatus>
             <S.LiStatus>
               {info.map((item) => getStatusName(item.status))}
+            
             </S.LiStatus>
           </S.UlStatus>
         </S.DivName>

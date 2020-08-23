@@ -54,6 +54,7 @@ export const DivStatus = styled.div`
   widows: 150px;
   margin-left: -80px;
   padding-left: 80px;
+  padding-right: 58px;
 `;
 
 export const LiName = styled.ul`
@@ -93,28 +94,33 @@ export const ImgEnviado = styled.img`
   width: 16px;
   height: 16px;
   filter: invert(78%) sepia(83%) saturate(307%) hue-rotate(10deg) brightness(84%) contrast(95%);
+margin-right: 8px;
 `;
 export const ImgAtivadas = styled.img`
   width: 16px;
   height: 16px;
   filter: invert(70%) sepia(11%) saturate(2482%) hue-rotate(87deg)
     brightness(88%) contrast(95%);
+    margin-right: 8px;
 `;
 export const ImgConfigurando = styled.img`
   width: 16px;
   height: 16px;
   filter: invert(61%) sepia(21%) saturate(2057%) hue-rotate(178deg)
     brightness(95%) contrast(102%);
+    margin-right: 8px;
 `;
 export const ImgOciosa = styled.img`
   width: 16px;
   height: 16px;
   filter: invert(80%) sepia(45%) saturate(711%) hue-rotate(346deg)
     brightness(96%) contrast(92%);
+    margin-right: 8px;
 `;
 export const ImgCheck = styled.img`
   width: 16px;
   height: 16px;
   filter: invert(73%) sepia(36%) saturate(347%) hue-rotate(192deg)
     brightness(90%) contrast(84%);
+    margin-right: 8px;
 `;
