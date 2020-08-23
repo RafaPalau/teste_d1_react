@@ -5,7 +5,7 @@ import search from "../../assets/icons/search.svg";
 
 class Input extends Component {
   state = {
-    show: false,
+    show: false,    //trocar para true para  não abrir o site já com modal
   };
   showModal = () => {
     this.setState({
@@ -26,7 +26,7 @@ class Input extends Component {
           </S.Button>
 
           <Modal onClose={this.showModal} show={this.state.show}>
-           <h1> This msg is from modal</h1>
+           
           </Modal>
         </S.Container>
       </>
