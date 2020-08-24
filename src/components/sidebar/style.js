@@ -89,7 +89,7 @@ export const ToolsIcon = styled.img`
   filter: invert(48%) sepia(1%) saturate(100%) hue-rotate(100deg)
     brightness(200%) contrast(400%);
   margin-top: 19px;
-cursor: pointer;
+  cursor: pointer;
   &:hover {
     filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg)
       brightness(100%) contrast(105%);

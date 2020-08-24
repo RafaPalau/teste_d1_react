@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Gotham from '../../assets/fonts/Gotham-Bold.ttf'
+import Gotham from "../../assets/fonts/Gotham-Bold.ttf";
 
 export const Container = styled.div`
   display: flex;
@@ -7,6 +7,19 @@ export const Container = styled.div`
   /* A margim que distancia as imagens dos inputs */
   margin-left: 500px;
   display: flex;
+  @media (max-width: 1300px) {
+    margin-left: 350px;
+  }
+  @media (max-width: 1200px) {
+    margin-left: 250px;
+  }
+  @media (max-width: 1100px) {
+    margin-left: 150px;
+  }
+  @media (max-width: 800px) {
+    margin-left: 70px;
+    
+  }
 `;
 
 export const Search = styled.input`
@@ -22,6 +35,9 @@ export const Search = styled.input`
   transition: all 0.3s ease;
   &:hover {
     box-shadow: 0px 0px 8px 2px #ccc;
+  }
+  @media (max-width: 800px) {
+    width: 200px;
   }
 `;
 
@@ -42,7 +58,7 @@ export const Button = styled.button`
   width: 150px;
   height: 35px;
   border: none;
-   outline-style: none;
+  outline-style: none;
   border-radius: 8px;
   margin-left: 15px;
   transition: all 0.5s ease;

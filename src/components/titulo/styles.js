@@ -6,6 +6,9 @@ display: flex;
 align-items: center;
 widows: 129px;
 height: 30px;
+@media (max-width: 1200px) {
+    margin-left: -80px;
+     }
 /* margin-left: 50px; */
 `;
 

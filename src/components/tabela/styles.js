@@ -8,6 +8,8 @@ export const Table = styled.div`
   display: flex;
   font: normal normal normal 13px/14px Gotham;
   color: #9196ab;
+ 
+  
 `;
 export const TdNome = styled.div`
   margin-left: 80px;
