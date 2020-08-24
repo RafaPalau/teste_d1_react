@@ -3,14 +3,13 @@ import ReactTooltip from "react-tooltip";
 import * as S from "./style";
 
 import ChartIcon from "./ChartIcon";
-
+import ToolIcon from "./ToolsIcon";
 
 import rocketIcon from "../../assets/icons/rocket.png";
 import groupIcon from "../../assets/icons/group.png";
 import cloudIcon from "../../assets/icons/cloud.png";
 import arrowSquareIcon from "../../assets/icons/arrowSquare.png";
 import gemIcon from "../../assets/icons/gem.png";
-import tollsIcon from "../../assets/icons/tools.png";
 import arrowsIcon from "../../assets/icons/arrows.png";
 import arrowCircleIcon from "../../assets/icons/arrowCircle.png";
 
@@ -21,8 +20,6 @@ class SideBar extends Component {
         <ReactTooltip />
 
         <S.Container>
-
-
           <ChartIcon></ChartIcon>
 
           <S.RocketIcon
@@ -61,13 +58,8 @@ class SideBar extends Component {
             data-type="light"
             data-place="right"
           />
-          <S.ToolsIcon
-            src={tollsIcon}
-            alt=""
-            data-tip="Help Deks"
-            data-type="light"
-            data-place="right"
-          />
+          <ToolIcon></ToolIcon>
+
           <S.ArrowsIcon
             src={arrowsIcon}
             alt=""

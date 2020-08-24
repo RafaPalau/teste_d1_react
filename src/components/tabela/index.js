@@ -61,7 +61,7 @@ class Tabela extends Component {
     }
 
     return (
-      <S.Container >
+      <S.Container>
         {/* Cabeçalho da tabela */}
         <S.Table>
           <S.TdNome>Nome</S.TdNome>
@@ -70,14 +70,12 @@ class Tabela extends Component {
           <S.TdStatus>Status</S.TdStatus>
         </S.Table>
 
-        {/* {info.map((item) => getStatusName(item.status))} */}
-
         <S.DivName>
           <S.DivMain>
             {info.map((filtro) => (
               <S.Ul>
                 <S.LiName>{filtro.name}</S.LiName>
-                
+              
                 <S.LiRecipients>{filtro.recipients}</S.LiRecipients>
                 <S.LiSuccess>{filtro.success}</S.LiSuccess>
               </S.Ul>
@@ -86,7 +84,6 @@ class Tabela extends Component {
           <S.UlStatus>
             <S.LiStatus>
               {info.map((item) => getStatusName(item.status))}
-            
             </S.LiStatus>
           </S.UlStatus>
         </S.DivName>

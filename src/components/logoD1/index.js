@@ -7,8 +7,10 @@ class Logo extends Component {
     return <>
     <S.Container>
       <S.Img  src={logo}  alt="fireSpot"/>
-      <S.Hr />
+
+    <S.Hr></S.Hr>
       </S.Container>
+
     </>;
   }
 }

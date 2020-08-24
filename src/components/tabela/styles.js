@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Gotham from '../../assets/fonts/Gotham-Book.ttf'
 
 
 export const Container = styled.div``;
@@ -25,7 +26,10 @@ export const DivName = styled.div`
   display: flex;
   flex-direction: row;
   list-style: none;
-  font: normal normal bold 13px/14px Gotham;
+  font-family: ${Gotham};
+  font-size: 13px;
+  font-weight: bold;
+  /* font: normal normal bold 13px/14px Gotham; */
 `;
 
 export const DivMain = styled.div`
@@ -38,13 +42,16 @@ export const Ul = styled.ul`
   align-items: center;
   height: 45px;
   background: #ffffff 0% 0% no-repeat padding-box;
-  font: normal normal normal 13px/19px Gotham;
+  font-family: ${Gotham};
+  font-size: 13px;
 `;
 
 export const UlStatus = styled.ul`
   list-style: none;
-  font: normal normal bold 13px/14px Gotham;
- 
+  font-family: ${Gotham};
+  font-size: 13px;
+  font-weight: bold;
+  
 `;
 
 export const DivStatus = styled.div`
@@ -63,14 +70,18 @@ export const LiName = styled.ul`
   height: 14px;
   text-align: left;
   color: #3e4157;
-  font: normal normal bold 13px/14px Gotham;
+  font-family: ${Gotham};
+  font-weight: bold;
+  font-size: 13px;
 `;
 export const LiRecipients = styled.ul`
   width: 72px;
   height: 14px;
   text-align: center;
   background: #ffffff 0% 0% no-repeat padding-box;
-  font: normal normal normal 13px/19px Gotham;
+  font-family: ${Gotham};
+  font-weight: normal;
+  font-size: 13px;
   color: #3e4157;
   margin-left: 101px;
 `;
@@ -79,14 +90,19 @@ export const LiSuccess = styled.ul`
   height: 14px;
   text-align: center;
   background: #ffffff 0% 0% no-repeat padding-box;
-  font: normal normal normal 13px/19px Gotham;
-  color: #3e4157;
+  font-family: ${Gotham};
+  font-weight: normal;
+  font-size: 13px;
   margin-left: 91px;
 `;
 export const LiStatus = styled.ul`
-  margin-top: -10px;
-  font: normal normal normal 13px/19px Gotham;
+  margin-top: -13px;
+  line-height: 19px;
+  font-family: ${Gotham};
+  font-weight: normal;
+  font-size: 13px;
   color: #3e4157;
+  
 `;
 
 // Estilização dos icones do Tabela. 
@@ -96,6 +112,7 @@ export const ImgEnviado = styled.img`
   height: 16px;
   filter: invert(78%) sepia(83%) saturate(307%) hue-rotate(10deg) brightness(84%) contrast(95%);
 margin-right: 8px;
+
 `;
 export const ImgAtivadas = styled.img`
   width: 16px;
@@ -103,6 +120,7 @@ export const ImgAtivadas = styled.img`
   filter: invert(70%) sepia(11%) saturate(2482%) hue-rotate(87deg)
     brightness(88%) contrast(95%);
     margin-right: 8px;
+    
 `;
 export const ImgConfigurando = styled.img`
   width: 16px;

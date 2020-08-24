@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Gotham from '../../assets/fonts/Gotham-Bold.ttf'
 
 export const Container = styled.div`
   display: flex;
@@ -55,6 +56,6 @@ export const Button = styled.button`
   }
 `;
 export const Text = styled.p`
-  font: normal normal bold 13px/14px Gotham;
+  font: normal normal bold 13px/14px ${Gotham};
   color: #ffffff;
 `;
