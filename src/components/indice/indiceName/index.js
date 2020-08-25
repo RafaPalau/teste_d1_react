@@ -4,7 +4,9 @@ import * as S from "./styled";
 function IndiceName(props) {
   const [indice, setindice] = useState(props.indice);
 
-  useEffect(() => {});
+  useEffect(() => {
+    
+  });
 
   function getName(e) {
     if (e.target.innerText === "Todos") {
@@ -21,6 +23,7 @@ function IndiceName(props) {
       var numStatus = 5;
     }
     setindice(numStatus);
+    
   }
 
   return (
@@ -28,8 +31,8 @@ function IndiceName(props) {
       <S.Li>Todos</S.Li>
       <S.Li>Em execução</S.Li>
       <S.Li>Ativa</S.Li>
-      {console.log(indice)}
-      <S.Li>Configurando</S.Li>
+    {console.log(indice)}
+         <S.Li>Configurando</S.Li>
       <S.Li>Ociosa</S.Li>
       <S.Li>Concluída</S.Li>
     </S.Container>

@@ -10,10 +10,14 @@ import concluidaIcon from "../../assets/icons/check.svg";
 
 class Tabela extends Component {
   state = {
-    info: [],
+       info: [],
   };
 
+  
+
+
   async componentDidMount() {
+
     const response = await filtro.get();
     this.setState({ info: response.data });
   }
