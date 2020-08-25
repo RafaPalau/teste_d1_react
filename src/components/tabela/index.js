@@ -14,12 +14,13 @@ class Tabela extends Component {
   };
 
   async componentDidMount() {
-    const response = await filtro.get("");
+    const response = await filtro.get();
     this.setState({ info: response.data });
   }
 
   render() {
     const { info } = this.state;
+    
 
     function getStatusName(item) {
       if (item === 1) {
@@ -89,7 +90,9 @@ class Tabela extends Component {
         </S.DivName>
       </S.Container>
     );
+   
   }
+  
 }
 
 export default Tabela;

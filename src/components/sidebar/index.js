@@ -5,13 +5,13 @@ import * as S from "./style";
 import ChartIcon from "./ChartIcon";
 import ToolIcon from "./ToolsIcon";
 
-import rocketIcon from "../../assets/icons/rocket.png";
-import groupIcon from "../../assets/icons/group.png";
-import cloudIcon from "../../assets/icons/cloud.png";
-import arrowSquareIcon from "../../assets/icons/arrowSquare.png";
-import gemIcon from "../../assets/icons/gem.png";
-import arrowsIcon from "../../assets/icons/arrows.png";
-import arrowCircleIcon from "../../assets/icons/arrowCircle.png";
+import rocketIcon from "../../assets/icons/rocket.svg";
+import groupIcon from "../../assets/icons/user-friends.svg";
+import cloudIcon from "../../assets/icons/ccm-cloud.svg";
+import arrowSquareIcon from "../../assets/icons/external-link-alt-solid.svg";
+import gemIcon from "../../assets/icons/gem.svg";
+import arrowsIcon from "../../assets/icons/exchange-alt.svg";
+import arrowCircleIcon from "../../assets/icons/sign-out-alt.svg";
 
 class SideBar extends Component {
   render() {

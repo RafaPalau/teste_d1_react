@@ -15,9 +15,9 @@ class Indice extends Component {
           </S.Titulos>
 
           <S.Container>
-            <IndiceIcon></IndiceIcon>
-            <IndiceName></IndiceName>
-            <IndiceValor></IndiceValor>
+            <IndiceIcon/>
+            <IndiceName/>
+            <IndiceValor/>
           </S.Container>
         </S.Main>
       </>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactTooltip from "react-tooltip";
 import styled from "styled-components";
-import img from "../../assets/icons/tools.png";
+import img from "../../assets/icons/tools.svg";
 
 const Icon = styled.img`
   width: 20px;
@@ -14,19 +14,22 @@ const Icon = styled.img`
     filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg)
       brightness(100%) contrast(105%);
   }
-  &:active {
+  &.${props => props.activeClassName} {
     filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg)
       brightness(100%) contrast(105%);
   }
+ 
 `;
 
 class ToolIcon extends Component {
   render() {
+
+    
     return (
       <>
         <ReactTooltip />
 
-        <Icon
+        <Icon 
           src={img}
           data-tip="Análises"
           data-type="light"

@@ -2,7 +2,9 @@ import styled from "styled-components";
 import Gotham from '../../assets/fonts/Gotham-Book.ttf'
 
 
-export const Container = styled.div``;
+export const Container = styled.div`
+height: 490px;
+`;
 
 export const Table = styled.div`
   display: flex;

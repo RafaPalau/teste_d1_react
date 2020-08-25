@@ -4,7 +4,7 @@ export const Valor = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 123px;
+    width: 123px;
   margin-top: 30px;
   /* margin-left: 17px; */
 `;
@@ -17,11 +17,11 @@ export const ValorIndice = styled.div`
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   margin-bottom: 11px;
   color: #9196ab;
   cursor: pointer;
   &:hover {
     background: #ebeef6;
   }
-`;
+  `;
