@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as S from "./styles";
-import filtro from "../api/tabela";
+import filtro from "../services/tabela";
 
 import enviadoIcon from "../../assets/icons/paper-plane.svg";
 import ativadasIcon from "../../assets/icons/play-circle.svg";

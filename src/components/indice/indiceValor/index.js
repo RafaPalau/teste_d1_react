@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import jornadas from "../../api/jornadas";
+import jornadas from "../../services/jornadas";
 import * as S from "./styled";
 
 class IndiceValor extends Component {

@@ -1,12 +1,13 @@
-import React, { Component, useState, useEffect } from "react";
+import React, {  useState, useEffect } from "react";
 import * as S from "./styled";
 
-function IndiceName(props) {
-  const [indice, setindice] = useState(props.indice);
-
+function IndiceName() {
+  const [indice, setindice] = useState([]);
+  
   useEffect(() => {
+    localStorage.setItem('indice', indice);
     
-  });
+  }, [indice]);
 
   function getName(e) {
     if (e.target.innerText === "Todos") {
@@ -23,20 +24,23 @@ function IndiceName(props) {
       var numStatus = 5;
     }
     setindice(numStatus);
-    
-  }
+
+  }  
 
   return (
-    <S.Container onClick={getName}>
+    <S.Container onClick={getName} >
       <S.Li>Todos</S.Li>
       <S.Li>Em execução</S.Li>
       <S.Li>Ativa</S.Li>
-    {console.log(indice)}
-         <S.Li>Configurando</S.Li>
+      {console.log(indice)}
+      <S.Li>Configurando</S.Li>
       <S.Li>Ociosa</S.Li>
       <S.Li>Concluída</S.Li>
     </S.Container>
   );
+  
 }
+
+
 
 export default IndiceName;
