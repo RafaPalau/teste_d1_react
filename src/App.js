@@ -21,7 +21,7 @@ function App() {
       <S.DivMain>
         <SideBar />
         <Indice />
-        <Tabela />
+        {/* <Tabela /> */}
       </S.DivMain>
     </S.Container>
   );

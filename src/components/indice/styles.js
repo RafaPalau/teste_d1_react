@@ -2,13 +2,16 @@ import styled from "styled-components";
 import Gotham from "../../assets/fonts/Gotham-Book.ttf";
 
 export const Main = styled.main`
-  display: inline-block;
+  /* display: flex; */
+  /* border: 1px solid red; */
   margin: 66px 30px auto 0px;
 `;
 
 // container principal
 export const Container = styled.div`
   display: flex;
+  
+  /* border: 5px solid red; */
   background-color: #fafbff;
   list-style: none;
 `;
@@ -26,9 +29,7 @@ export const Title = styled.h1`
   font-size: 16px;
   letter-spacing: 0;
   color: #3e4157;
-  @media (max-width: 1200px) {
-    margin-left: -130px;
-  }
+ 
 `;
 
 export const Icon = styled.div`
@@ -66,6 +67,7 @@ export const Valor = styled.div`
   width: 123px;
   margin-top: 34px;
   margin-left: -80px;
+ 
 `;
 
 export const Name = styled.h2`

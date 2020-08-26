@@ -14,12 +14,13 @@ const Icon = styled.img`
     filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg)
       brightness(100%) contrast(105%);
   }
-  &.${props => props.activeClassName} {
+  .active{
     filter: invert(39%) sepia(23%) saturate(7090%) hue-rotate(200deg)
       brightness(100%) contrast(105%);
   }
- 
-`;
+ `;
+
+
 
 class ToolIcon extends Component {
   render() {
