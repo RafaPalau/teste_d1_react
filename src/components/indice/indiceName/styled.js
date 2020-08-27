@@ -1,30 +1,35 @@
 import styled from "styled-components";
-import Gotham from "../../../assets/fonts/Gotham-Book.ttf";
+import GothamBook from "../../../assets/fonts/Gotham-Book.ttf";
+import GothamBold from "../../../assets/fonts/Gotham-Bold.ttf";
 
-// Active tem que ir aqui.
+//indices o Active tem que ir aqui.
 export const Li = styled.h2`
   font-size: 13px;
   color: #9196ab;
   cursor: pointer;
+  margin-bottom: 8px;
+
+  margin-left: -60px;
   &:hover {
     color: #117eff;
   }
 `;
 
-// lista indice + tabela Aqui esta a gambiarra que preciso arrumar
+// valores do indice
 export const DivLista = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 5px;
-  margin-left: -220px;
+  margin-left: -160px;
+  margin-top:5px;
 `;
 export const DivTabela = styled.div`
-  /* margin-left: 90px; */
+  margin-left: 65px;
 `;
 
 //div principal que pega o indice e a tabela
 export const Container = styled.ul`
   display: flex;
+  margin-top: 11px;
 `;
 
 // div de cada nome
@@ -35,19 +40,25 @@ export const LiName = styled.ul`
   background-color: #ffffff;
   margin-bottom: 10px;
   align-items: center;
-
   margin-left: 63px;
+  font-family: ${GothamBold};
+  font-weight: bold;
+  font-size: 13px;
 `;
 
 // div de cada destinatário
 export const LiRecipients = styled.ul`
-  margin-left: -40px;
+  margin-left: -60px;
   padding: 13px;
   display: flex;
   background-color: #ffffff;
   margin-bottom: 10px;
   align-items: center;
-  width: 150px;
+  justify-content: center;
+  width: 160px;
+  font-family: ${GothamBook};
+  font-weight: normal;
+  font-size: 13px;
 `;
 
 // div de cada successo
@@ -55,11 +66,13 @@ export const LiSuccess = styled.ul`
   display: flex;
   background-color: #ffffff;
   margin-bottom: 10px;
-  align-items: center;
-  width: 150px;
-
+  width: 170px;
   padding: 13px;
-  margin-left: -15px;
+  padding-left: 40px;
+  margin-left: 0px;
+  font-family: ${GothamBook};
+  font-weight: normal;
+  font-size: 13px;
 `;
 
 // div de cada status da tabela
@@ -68,15 +81,21 @@ export const DivStatus = styled.div`
   background-color: #ffffff;
   margin-bottom: 10px;
   align-items: center;
-  width: 150px;
+  width: 160px;
   margin-left: -70px;
+  font-family: ${GothamBook};
+  font-weight: normal;
+  font-size: 13px;
 `;
 
 export const Table = styled.div`
   display: flex;
-  font: normal normal normal 13px/14px Gotham;
+  font-family: ${GothamBold};
+  font-size: 14px/18px;
+  font-weight: bold;
   color: #9196ab;
-  margin-top: -15px;
+  margin-top: 8px;
+  margin-bottom: 14px;
 `;
 export const TdNome = styled.div`
   margin-left: 166px;
@@ -96,8 +115,9 @@ export const DivName = styled.ul`
   display: flex;
   flex-direction: row;
   list-style: none;
-  font-family: ${Gotham};
-  font-size: 13px;
+  font-family: ${GothamBold};
+  font-size: 13px/18px;
+  font-weight: bold;
   font-weight: bold;
   margin-left: 10px;
 `;
@@ -107,15 +127,15 @@ export const Ul = styled.ul`
   flex-direction: column;
   list-style: none;
   align-items: center;
-  font-family: ${Gotham};
-  font-size: 13px;
+  font-family: ${GothamBook};
+  font-size: 13px/18px;
 `;
 
 // div container status
 export const LiStatus = styled.ul`
   /* margin-top: -13px; */
   /* line-height: 15px; */
-  font-family: ${Gotham};
+  font-family: ${GothamBook};
   font-weight: normal;
   font-size: 13px;
   color: #3e4157;
@@ -158,42 +178,4 @@ export const ImgCheck = styled.img`
   filter: invert(73%) sepia(36%) saturate(347%) hue-rotate(192deg)
     brightness(90%) contrast(84%);
   margin-right: 8px;
-`;
-
-export const Icon = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 123px;
-  margin-top: 31px;
-  /* margin-left: 90px; */
-`;
-
-export const ImgTodos = styled.img`
-  width: 16px;
-  height: 16px;
-  filter: invert(85%) sepia(42%) saturate(2840%) hue-rotate(207deg)
-    brightness(92%) contrast(87%);
-`;
-export const ImgExExecucao = styled.img`
-  width: 16px;
-  height: 16px;
-  filter: invert(74%) sepia(7%) saturate(2487%) hue-rotate(25deg)
-    brightness(96%) contrast(110%);
-  margin-top: 19px;
-`;
-export const ImgAtiva = styled.img`
-  width: 16px;
-  height: 16px;
-  filter: invert(70%) sepia(11%) saturate(2482%) hue-rotate(87deg)
-    brightness(88%) contrast(95%);
-  margin-top: 20px;
-`;
-
-export const ImgConcluida = styled.img`
-  width: 16px;
-  height: 16px;
-  filter: invert(73%) sepia(36%) saturate(347%) hue-rotate(192deg)
-    brightness(90%) contrast(84%);
-  margin-top: 19px;
 `;

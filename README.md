@@ -1,48 +1,53 @@
 ### `About`
 
-This project is being developed as a test for the company D1 and consists of using the API that they made available. [Url API](https://api-d1-test.herokuapp.com/api/filter)
+Este projeto está sendo desenvolvido como um teste para a empresa D1 e consiste na utilização da API por eles disponibilizada. [Url API](https://api-d1-test.herokuapp.com/api/filter)
 
 https://tested1.netlify.app/
 
 
 ### `Instalation`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
-🎬 this way at the terminal `create-react-app testeD1React`
+🎬 Para isso, digitei no terminal: `create-react-app testeD1React`
 
-make sure you have a dependency / package manager installed on your computer:
+certifique-se de ter um gerenciador de dependência / pacote instalado em seu computador:
  [link to Yarn installer](https://yarnpkg.com/getting-started/install)
 [link to Npm installer](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-⚙ To install the dependencies of this project ⚙
+⚙ Para instalar as dependências deste projeto ⚙
 
 ### `npm install` 
 or 
 ### `npm install`
 
-🚀 In the project directory, you can run: 🚀
+🚀 No diretório do projeto, você pode executar: 🚀
 
 ### `yarn start`
 or
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Executa o aplicativo no modo de desenvolvimento.<br />
+Abra [http://localhost:3000](http://localhost:3000) para vê-lo no navegador.
+
+A página será recarregada se você fizer edições.<br />
+
+Você também verá quaisquer erros de lint no console.
 
 ### `Dependencies`
 
 
 ### Axios
-In this project I needed to use a tool to consume and display data from an API. There are several ways to do this, but the most popular way is using axios, an HTTP client based on Promises. 
-know more here [Axios](https://www.npmjs.com/package/axios)
+Neste projeto eu precisei usar uma ferramenta para consumir e exibir dados de uma API. Existem várias maneiras de fazer isso, mas a forma mais popular é usando axios, um cliente HTTP baseado em Promises.
+saiba mais aqui [Axios](https://www.npmjs.com/package/axios)
 
 
 ### Styled Components
-To style our components I used a library called [Styled Components](https://styled-components.com/docs/basics). It is a library for React and React Native that allows you to use component-level styles in your application. They are written in a mixture of JavaScript and CSS
+Para estilizar nossos componentes, usei uma biblioteca chamada [Styled Components](https://styled-components.com/docs/basics). 
+É uma biblioteca para React e React Native que permite usar estilos de nível de componente em seu aplicativo. Eles são escritos em uma mistura de JavaScript e CSS
+
+![Screenshot](print.jpeg)
 
 
 

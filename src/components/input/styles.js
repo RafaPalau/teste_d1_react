@@ -1,27 +1,16 @@
 import styled from "styled-components";
-import Gotham from "../../assets/fonts/Gotham-Bold.ttf";
+import GothamBold from "../../assets/fonts/Gotham-Bold.ttf";
+import GothamBook from "../../assets/fonts/Gotham-Book.ttf";
 
+
+//Container principal do input e do botão
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  /* A margim que distancia as imagens dos inputs */
   margin-left: 500px;
   display: flex;
-  @media (max-width: 1300px) {
-    margin-left: 350px;
-  }
-  @media (max-width: 1200px) {
-    margin-left: 250px;
-  }
-  @media (max-width: 1100px) {
-    margin-left: 150px;
-  }
-  @media (max-width: 800px) {
-    margin-left: 70px;
-    
-  }
 `;
-
+// input 
 export const Search = styled.input`
   background: #ffffff 0% 0% no-repeat padding-box;
   width: 296px;
@@ -41,6 +30,7 @@ export const Search = styled.input`
   }
 `;
 
+// Icone dentro do Input
 export const SearchIcon = styled.img`
   width: 14px;
   height: 14px;
@@ -50,11 +40,12 @@ export const SearchIcon = styled.img`
   margin-left: 25px;
 `;
 
+//Botão Nova Jornada
 export const Button = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #117ef6 0% 0% no-repeat padding-box;
+  background: #117ef6 ;
   width: 150px;
   height: 35px;
   border: none;
@@ -71,7 +62,20 @@ export const Button = styled.button`
     );
   }
 `;
-export const Text = styled.p`
-  font: normal normal bold 13px/14px ${Gotham};
+// Texto dentro do botão
+export const NovaJornada = styled.p`
+  font-family: ${GothamBold};
+  font-size: 13px/14px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 5px;
+  margin-right: 20.35px;
+`;
+
+// sinal de + dentro do botão
+export const Mais = styled.p`
+  font-family: ${GothamBook};
+  font-size: 13px/14px;
+  font-weight: normal;
   color: #ffffff;
 `;

@@ -6,19 +6,20 @@ import logo from "../../assets/images/acme-logo.png";
 class Title extends Component {
   render() {
     return (
-      <>
-        <S.Container>
-
+      // Inicio do container principal
+      <S.Container>
         <ReactTooltip />
-          <S.BackGroundA data-tip="Antonio Silva"
-            data-type="dark"
-            data-place="right" >A</S.BackGroundA>
+        <S.BackGroundA
+          data-tip="Antonio Silva"
+          data-type="dark"
+          data-place="right"
+        >
+          A
+        </S.BackGroundA>
 
-          <S.AcmeLogo src={logo} alt="fireSpot" />
-
-
-        </S.Container>
-      </>
+        <S.AcmeLogo src={logo} alt="fireSpot" />
+      </S.Container>
+      // Fim do container principal
     );
   }
 }

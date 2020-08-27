@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import jornadas from "../../services/jornadas";
 import * as S from "./styled";
 
+// Importação dos icones da lista
 import todosIcon from "../../../assets/icons/table.svg";
 import emExecucaoIcon from "../../../assets/icons/paper-plane.svg";
 import ativaIcon from "../../../assets/icons/play-circle.svg";
@@ -13,6 +14,8 @@ class IndiceIcon extends Component {
   state = {
     info: [],
   };
+
+  // recebendo as informações dos indices da API ...services/jornadas.js
   async componentDidMount() {
     const response = await jornadas.get("");
     this.setState({ info: response.data });
@@ -21,6 +24,8 @@ class IndiceIcon extends Component {
   render() {
     const { info } = this.state;
 
+    // função para definir a imagem do icone conforma o texto do indice.
+    // Não precisava mas não sei por que eu quis fazer.
     function getIndice(item) {
       if (item === "Todos") {
         return <S.ImgTodos src={todosIcon} />;

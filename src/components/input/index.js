@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import Modal from "../modal/Modal";
 import * as S from "./styles";
-import search from "../../assets/icons/search.svg";
+import search from "../../assets/icons/search.png";
 
 class Input extends Component {
   state = {
-    show: true,  
+    show: true,
   };
+
+  // Estado do modal
   showModal = () => {
     this.setState({
       ...this.state,
@@ -22,12 +24,11 @@ class Input extends Component {
           <S.Search placeholder="Buscar"></S.Search>
 
           <S.Button onClick={this.showModal}>
-            <S.Text>+ Nova Jornada</S.Text>
+            <S.Mais>+</S.Mais>
+            <S.NovaJornada>Nova Jornada</S.NovaJornada>
           </S.Button>
-
-          <Modal onClose={this.showModal} show={this.state.show}>
-           
-          </Modal>
+      
+          <Modal onClose={this.showModal} show={this.state.show}></Modal>
         </S.Container>
       </>
     );
