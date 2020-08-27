@@ -19,7 +19,7 @@ export const DivLista = styled.div`
   margin-left: -220px;
 `;
 export const DivTabela = styled.div`
-  margin-left: 90px;
+  /* margin-left: 90px; */
 `;
 
 //div principal que pega o indice e a tabela
@@ -27,17 +27,49 @@ export const Container = styled.ul`
   display: flex;
 `;
 
+// div de cada nome
+export const LiName = styled.ul`
+  padding: 13px;
+  width: 240px;
+  display: flex;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  align-items: center;
+
+  margin-left: 63px;
+`;
+
+// div de cada destinatário
+export const LiRecipients = styled.ul`
+  margin-left: -40px;
+  padding: 13px;
+  display: flex;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  align-items: center;
+  width: 150px;
+`;
+
+// div de cada successo
+export const LiSuccess = styled.ul`
+  display: flex;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  align-items: center;
+  width: 150px;
+
+  padding: 13px;
+  margin-left: -15px;
+`;
+
 // div de cada status da tabela
 export const DivStatus = styled.div`
   display: flex;
   background-color: #ffffff;
-  /* margin: 10px; */
-  margin-top: 1px;
   margin-bottom: 10px;
   align-items: center;
   width: 150px;
-  padding-left: 30px;
-  margin-left: -30px;
+  margin-left: -70px;
 `;
 
 export const Table = styled.div`
@@ -75,61 +107,8 @@ export const Ul = styled.ul`
   flex-direction: column;
   list-style: none;
   align-items: center;
-  height: 45px;
-
   font-family: ${Gotham};
   font-size: 13px;
-`;
-
-// div de cada nome
-export const LiName = styled.ul`
-  width: 236px;
-  height: 14px;
-  text-align: left;
-  color: #3e4157;
-  font-family: ${Gotham};
-  font-weight: bold;
-  font-size: 13px;
-  list-style: none;
-  background: #ffffff;
-  padding: 15px;
-  margin: 3px;
-  margin-left: 60px;
-`;
-
-// div de cada destinatário
-export const LiRecipients = styled.ul`
-  width: 72px;
-  height: 14px;
-  text-align: center;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  font-family: ${Gotham};
-  font-weight: normal;
-  font-size: 13px;
-  color: #3e4157;
-  padding: 15px;
-
-  margin-left: -50px;
-  background-color: #fff;
-  margin-bottom: 6.2px;
-  /* margin-top: 0.6px; */
-  list-style: none;
-`;
-
-// div de cada successo
-export const LiSuccess = styled.ul`
-  width: 150px;
-  height: 14px;
-  text-align: center;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  font-family: ${Gotham};
-  font-weight: normal;
-  font-size: 13px;
-  padding: 15px;
-  padding-right: 30px;
-  /* margin: 6px; */
-  margin-bottom: 6px;
-  list-style: none;
 `;
 
 // div container status
