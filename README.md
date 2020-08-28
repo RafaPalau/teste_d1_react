@@ -47,7 +47,7 @@ saiba mais aqui [Axios](https://www.npmjs.com/package/axios)
 Para estilizar nossos componentes, usei uma biblioteca chamada [Styled Components](https://styled-components.com/docs/basics). 
 É uma biblioteca para React e React Native que permite usar estilos de nível de componente em seu aplicativo. Eles são escritos em uma mistura de JavaScript e CSS
 
-![Screenshot](print.jpeg)
+
 
 
 
