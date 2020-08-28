@@ -57,6 +57,7 @@ Para estilizar nossos componentes, usei uma biblioteca chamada [Styled Component
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -66,6 +67,8 @@ Para estilizar nossos componentes, usei uma biblioteca chamada [Styled Component
 
 
 
+=======
+>>>>>>> 400368f25b3a99cfb208c21b6209e96a47bc2f9f
 
 
 
