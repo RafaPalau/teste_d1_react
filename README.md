@@ -6,12 +6,12 @@ O objetivo foi avaliar meu conhecimento e experiência com React e bibliotecas r
 ## A missão 
 
 # 1° foi desenvolver a página abaixo:
+![Print](screenShoot.jpeg =250x)
 
-![Print](videoFinal.gif)
 
 # 2° Os dados do filtro e da tabela precisam ser consumidos da api.
+![Print](videoFinal.gif)
 
-![Print](screenShoot.jpeg)
 
 ### `Instalação`
 
