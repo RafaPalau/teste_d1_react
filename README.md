@@ -1,7 +1,16 @@
 ### `Sobre`
 
-Este projeto está sendo desenvolvido como um teste para a empresa [D1](https://d1.cx/) e consiste na utilização da API por eles disponibilizada. [Url API](https://api-d1-test.herokuapp.com/api/filter)
+Este projeto foi desenvolvido como um teste para a empresa [D1](https://d1.cx/) e consiste na utilização da API por eles disponibilizada. [Url API](https://api-d1-test.herokuapp.com/api/filter)
+O objetivo foi avaliar meu conhecimento e experiência com React e bibliotecas relacionadas para desenvolvimento front-end.
 
+## A missão 
+
+# 1° foi desenvolver a página abaixo:
+
+![Print](screenShoot.jpeg)
+
+# 2° Os dados do filtro e da tabela precisam ser consumidos da api.
+![Image of Programming](https://gifyu.com/image/gLg1)
 
 ### `Instalação`
 
@@ -46,7 +55,7 @@ Para estilizar nossos componentes, usei uma biblioteca chamada [Styled Component
 É uma biblioteca para React e React Native que permite usar estilos de nível de componente em seu aplicativo. Eles são escritos em uma mistura de JavaScript e CSS
 
 
-![Print](screenShoot.jpeg)
+
 
 
 
