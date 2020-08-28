@@ -46,7 +46,7 @@ Para estilizar nossos componentes, usei uma biblioteca chamada [Styled Component
 É uma biblioteca para React e React Native que permite usar estilos de nível de componente em seu aplicativo. Eles são escritos em uma mistura de JavaScript e CSS
 
 
-![Print]('./../screenShoot.jpeg')
+![Print](screenShoot.jpeg)
 
 
 
