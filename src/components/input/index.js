@@ -8,7 +8,7 @@ class Input extends Component {
     show: true,
   };
 
-  // Estado do modal
+  
   showModal = () => {
     this.setState({
       ...this.state,

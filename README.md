@@ -1,9 +1,9 @@
-### `About`
+### `Sobre`
 
 Este projeto está sendo desenvolvido como um teste para a empresa D1 e consiste na utilização da API por eles disponibilizada. [Url API](https://api-d1-test.herokuapp.com/api/filter)
 
 
-### `Instalation`
+### `Instalação`
 
 Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
@@ -33,7 +33,7 @@ A página será recarregada se você fizer edições.<br />
 
 Você também verá quaisquer erros de lint no console.
 
-### `Dependencies`
+### `Dependencias`
 
 
 ### Axios
@@ -46,7 +46,7 @@ Para estilizar nossos componentes, usei uma biblioteca chamada [Styled Component
 É uma biblioteca para React e React Native que permite usar estilos de nível de componente em seu aplicativo. Eles são escritos em uma mistura de JavaScript e CSS
 
 
-
+![Print]('./../screenShoot.jpeg')
 
 
 

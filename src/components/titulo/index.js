@@ -6,7 +6,7 @@ import logo from "../../assets/images/acme-logo.png";
 class Title extends Component {
   render() {
     return (
-      // Inicio do container principal
+     
       <S.Container>
         <ReactTooltip />
         <S.BackGroundA
@@ -19,7 +19,7 @@ class Title extends Component {
 
         <S.AcmeLogo src={logo} alt="fireSpot" />
       </S.Container>
-      // Fim do container principal
+     
     );
   }
 }

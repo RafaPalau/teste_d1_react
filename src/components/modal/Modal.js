@@ -17,7 +17,7 @@ export default class Modal extends React.Component {
         <S.Modal>
           {this.props.children}
 
-          {/*Inicio de toda a caixa do modal fica aqui */}
+          
           <S.Container>
             <S.H1>Nova Jornada</S.H1>
             <S.Hr></S.Hr>
@@ -27,7 +27,7 @@ export default class Modal extends React.Component {
             <S.Input></S.Input>
             <S.Parag2>Você poderá alterar essa informação depois.</S.Parag2>
 
-            {/* Inicio da Div dos botoes */}
+            
             <S.DivBotoes>
               <S.BotaoContinuar
                 onClick={(e) => {
@@ -45,9 +45,9 @@ export default class Modal extends React.Component {
                 Cancelar
               </S.BotaoCancelar>
             </S.DivBotoes>
-            {/* Final da Div dos botoes */}
+           
           </S.Container>
-          {/*Fim de toda a caixa do modal fica aqui */}
+         
         </S.Modal>
       </S.Overlay>,
       portalRoot
