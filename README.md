@@ -1,6 +1,6 @@
 ### `Sobre`
 
-Este projeto está sendo desenvolvido como um teste para a empresa [D1](https://d1.cx/) e consiste na utilização da API por eles disponibilizada. [Url API](https://api-d1-test.herokuapp.com/api/filter)
+Este projeto está sendo desenvolvido como um teste para a empresa [D1](https://d1.cx/){:target="_blank"} e consiste na utilização da API por eles disponibilizada. [Url API](https://api-d1-test.herokuapp.com/api/filter)
 
 
 ### `Instalação`
