@@ -3,13 +3,13 @@
 Este projeto foi desenvolvido como um teste para a empresa [D1](https://d1.cx/) e consiste na utilização da API por eles disponibilizada. [Url API](https://api-d1-test.herokuapp.com/api/filter)
 O objetivo foi avaliar meu conhecimento e experiência com React e bibliotecas relacionadas para desenvolvimento front-end.
 
-# A missão 
+## A missão 
 
-# 1° foi desenvolver a página abaixo:
+### 1° foi desenvolver a página abaixo:
 ![Print](screenShoot.jpeg)
 
 
-# 2° Os dados do filtro e da tabela precisam ser consumidos da api.
+### 2° Os dados do filtro e da tabela precisam ser consumidos da api.
 ![Print](videoFinal.gif)
 
 
@@ -17,7 +17,7 @@ O objetivo foi avaliar meu conhecimento e experiência com React e bibliotecas r
 
 Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
-# 🎬 Para isso, digitei no terminal: 
+### 🎬 Para isso, digitei no terminal: 
 `create-react-app teste_D1_React`
 
 certifique-se de ter um gerenciador de dependência/pacote instalado em seu computador:
@@ -26,20 +26,20 @@ certifique-se de ter um gerenciador de dependência/pacote instalado em seu comp
 [link to Npm installer](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 
-# Se quiser rodar o projeto em sua máquina local, siga os passos a seguir: 
+### Se quiser rodar o projeto em sua máquina local, siga os passos a seguir: 
 
-# Clone o repositório em alguma pasta em sua máquina
+### Clone o repositório em alguma pasta em sua máquina
 $ git clone https://github.com/RafaPalau/teste_d1_react.git
 
-# Entre no repositório
+### Entre no repositório
 $ cd teste_d1_react
 
-# ⚙ Para instalar as dependências deste projeto:  ⚙
+### ⚙ Para instalar as dependências deste projeto:  ⚙
 No terminal rode um dos seguintes comandos.
 
 `$ npm install` ou `$ npm install`
 
-# 🚀 No diretório do projeto, você pode executar: 🚀
+### 🚀 No diretório do projeto, você pode executar: 🚀
 
 `yarn start` ou `npm start`
 
@@ -51,7 +51,7 @@ A página será recarregada se você fizer edições.<br />
 
 Você também verá quaisquer erros de lint no console.
 
-### `Dependencias instaladas:`
+## `Dependencias instaladas:`
 
 
 ### Axios
