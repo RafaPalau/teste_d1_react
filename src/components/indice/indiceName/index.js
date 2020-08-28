@@ -11,6 +11,13 @@ import concluidaIcon from "../../../assets/icons/check.svg";
 function IndiceName() {
   const [indice, setindice] = useState("");
   const [items, setItems] = useState([]);
+  const [ativo, setAtivo] = useState("");
+
+  //
+  function handleClick(e) {
+    setAtivo(!ativo);
+    e.target.classList.toggle("ativo");
+  }
 
   useEffect(() => {
     async function getItems() {
@@ -22,6 +29,9 @@ function IndiceName() {
   }, [indice]);
 
   function getName(e) {
+    // e.target.classList.remove('ativo')
+
+    console.log(e.target);
     if (e.target.innerText === "Todos") {
       setindice("");
     } else if (e.target.innerText === "Em execução") {
@@ -37,6 +47,7 @@ function IndiceName() {
     }
   }
 
+  // função para pegar os icones e textos do Status
   function getStatusName(item) {
     if (item === 1) {
       return (
@@ -78,7 +89,7 @@ function IndiceName() {
 
   return (
     <S.Container onClick={getName}>
-      <S.DivLista>
+      <S.DivLista onClick={handleClick}>
         <S.Li>Todos</S.Li>
         <S.Li>Em execução</S.Li>
         <S.Li>Ativa</S.Li>

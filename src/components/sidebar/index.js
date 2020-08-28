@@ -2,16 +2,23 @@ import React, { Component } from "react";
 import ReactTooltip from "react-tooltip";
 import * as S from "./style";
 
-import ChartIcon from "./ChartIcon";
-import ToolIcon from "./ToolsIcon";
+// import ChartIcon from "./ChartIcon";
+// import ToolIcon from "./ToolsIcon";
 
 import rocketIcon from "../../assets/icons/rocket.svg";
 import groupIcon from "../../assets/icons/user-friends.svg";
 import cloudIcon from "../../assets/icons/ccm-cloud.svg";
 import arrowSquareIcon from "../../assets/icons/external-link-alt-solid.svg";
 import gemIcon from "../../assets/icons/gem.svg";
+import tools from "../../assets/icons/tools.svg";
 import arrowsIcon from "../../assets/icons/exchange-alt.svg";
 import arrowCircleIcon from "../../assets/icons/sign-out-alt.svg";
+
+// Função para ativar nova cor pro icone.
+function getStyle(e) {
+  e.target.classList.toggle("ativo");
+  console.log(e.target);
+}
 
 class SideBar extends Component {
   render() {
@@ -20,7 +27,9 @@ class SideBar extends Component {
         <ReactTooltip />
 
         <S.Container>
-          <ChartIcon></ChartIcon>
+
+       
+          <S.ChartIcon data-tip="Análises" data-type="light" data-place="right" />
 
           <S.RocketIcon
             src={rocketIcon}
@@ -58,7 +67,13 @@ class SideBar extends Component {
             data-type="light"
             data-place="right"
           />
-          <ToolIcon></ToolIcon>
+          <S.ToolsIcon
+            onClick={getStyle}
+            src={tools}
+            data-tip="Help Desk"
+            data-type="light"
+            data-place="right"
+          />
 
           <S.ArrowsIcon
             src={arrowsIcon}

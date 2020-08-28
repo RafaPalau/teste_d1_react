@@ -13,6 +13,10 @@ export const Li = styled.h2`
   &:hover {
     color: #117eff;
   }
+  &.ativo {
+    color: #117eff;
+  }
+  
 `;
 
 // valores do indice
@@ -20,7 +24,7 @@ export const DivLista = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: -160px;
-  margin-top:5px;
+  margin-top: 5px;
 `;
 export const DivTabela = styled.div`
   margin-left: 65px;
