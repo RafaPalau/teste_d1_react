@@ -6,7 +6,7 @@ O objetivo foi avaliar meu conhecimento e experiência com React e bibliotecas r
 ## A missão 
 
 # 1° foi desenvolver a página abaixo:
-![Print](screenShoot.jpeg =250x)
+![Print](screenShoot.jpeg)
 
 
 # 2° Os dados do filtro e da tabela precisam ser consumidos da api.
@@ -23,17 +23,23 @@ certifique-se de ter um gerenciador de dependência / pacote instalado em seu co
  [link to Yarn installer](https://yarnpkg.com/getting-started/install)
 [link to Npm installer](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-⚙ Para instalar as dependências deste projeto ⚙
 
-### `npm install` 
-or 
-### `npm install`
+# Se quiser rodar o projeto em sua máquina local, siga os passoas a seguir: 
+
+# Clone o repositório em alguma pasta em sua máquina
+$ git clone https://github.com/RafaPalau/teste_d1_react.git
+
+# Entre no repositório
+$ cd teste_d1_react
+
+⚙ Para instalar as dependências deste projeto ⚙
+No terminal rode um dos seguintes comandos.
+
+`$ npm install` ou `$ npm install`
 
 🚀 No diretório do projeto, você pode executar: 🚀
 
-### `yarn start`
-or
-### `npm start`
+`yarn start` ou `npm start`
 
 
 Executa o aplicativo no modo de desenvolvimento.<br />
@@ -43,7 +49,7 @@ A página será recarregada se você fizer edições.<br />
 
 Você também verá quaisquer erros de lint no console.
 
-### `Dependencias`
+### `Dependencias instaladas:`
 
 
 ### Axios
