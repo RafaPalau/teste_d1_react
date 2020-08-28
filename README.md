@@ -2,8 +2,6 @@
 
 Este projeto está sendo desenvolvido como um teste para a empresa D1 e consiste na utilização da API por eles disponibilizada. [Url API](https://api-d1-test.herokuapp.com/api/filter)
 
-https://tested1.netlify.app/
-
 
 ### `Instalation`
 
