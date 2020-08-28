@@ -1,6 +1,4 @@
 import React from "react";
-
-
 import Logo from "./components/logoD1";
 import Title from "./components/titulo";
 import Input from "./components/input";
